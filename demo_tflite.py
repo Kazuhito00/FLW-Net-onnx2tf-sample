@@ -94,7 +94,7 @@ def main():
 
     # Parameter Window
     cvui.init('FLW-Net Parameters')
-    exp_mean = [0.2]
+    exp_mean = [0.4]
     parameter_window = np.zeros((80, 320, 3), np.uint8)
 
     while True:
@@ -112,7 +112,6 @@ def main():
         ret, frame = cap.read()
         if not ret:
             break
-        frame = cv.resize(frame, dsize=None, fx=0.75, fy=0.75)
         debug_image = copy.deepcopy(frame)
         frame_height, frame_width = frame.shape[0], frame.shape[1]
 
