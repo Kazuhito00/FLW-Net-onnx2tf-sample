@@ -49,7 +49,7 @@ python demo_tflite.py
 高橋かずひと(https://twitter.com/KzhtTkhs)
  
 # License 
-FLW-Net-onnx2tf-sample is under [Apache2.0 License](LICENSE).
+FLW-Net-onnx2tf-sample is under [MIT License](LICENSE).
 
 # License(Movie)
 サンプル動画は[NHKクリエイティブ・ライブラリー](https://www.nhk.or.jp/archives/creative/)の[雨イメージ　夜の道路を走る車](https://www2.nhk.or.jp/archives/creative/material/view.cgi?m=D0002161702_00000)を使用しています。
