@@ -73,7 +73,7 @@ def main():
         type=str,
         default='model/saved_model_320x240/FLW-Net_320x240_float16.tflite',
     )
-    parser.add_argument("--num_threads", type=int, default=6)
+    parser.add_argument("--num_threads", type=int, default=1)
 
     args = parser.parse_args()
     model_path = args.model
